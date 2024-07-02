@@ -1,0 +1,102 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.achievementsItems {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.achievementsItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 25px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+
+.achievementsItem:hover {
+  background-size: 100% 100%;
+}
+
+.achievementsItemText h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.achievementsItemText p {
+  font-size: 25px;
+}
+
+
+
+.codeforcesImage {
+    height: 70px; 
+    width: 70px;
+    gap: 10px; 
+}
+.ReactImage {
+  height: 50px; 
+  width: 80px;
+  gap: 10px; 
+}
+.blockchainImage {
+  height: 80px; 
+  width: 80px;
+  gap: 10px; 
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .achievementsItems {
+    margin-top: 29px;
+  }
+
+  .achievementsItem {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

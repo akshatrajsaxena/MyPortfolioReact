@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Maze Solver using BFS Algorithm",
+        "imageSrc": "projects/project.png",
+        "description": "This project is a maze solver that uses the BFS to find the shortest path from the start to the end of the maze.",
+        "skills": ["CP", "Python", "Algorithms"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+      },
+      {
+        "title": "My Portfolio",
+        "imageSrc": "projects/project.png",
+        "description": "This project is my portfolio website that make use of React frmaework and front-end is styles with Sass. Uses HTML, CSS",
+        "skills": ["React", "HTML", "CSS", "Node"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+      },
+      {
+        "title": "Project C",
+        "imageSrc": "projects/project.png",
+        "description": "This is a project made to learn the latest languages by building an app.",
+        "skills": ["React", "Express", "Node"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+      }
+]

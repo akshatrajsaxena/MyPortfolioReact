@@ -1,0 +1,23 @@
+.socialMediaContainer {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0 10px 10px 0;
+  }
+  
+  .icon {
+    width: 40px; 
+    height: 40px; 
+    transition: transform 0.3s;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2);
+  }
+  
