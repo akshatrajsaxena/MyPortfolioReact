@@ -93,7 +93,6 @@ Above is the main my homepage which is currently in development and being update
 [MIT License](https://github.com/akshatrajsaxena/MyPortfolioReact/blob/main/LICENSE)
 
 
-
 ## Contact
 
 If you have any questions or would like to get in touch, you can reach me at [Akshat Raj Saxena](mailto:akshat22054@iiitd.ac.in)
@@ -107,4 +106,3 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Welcome to my Portfolio code, the build of the code is done mainly in Javascript using react Framework.
